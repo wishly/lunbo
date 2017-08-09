@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+	font-family: Arial;
+}
+.box {
+	position: relative;
+	top: 100px;
+	width: 470px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box ul {
+	position: relative;
+	width: 470px;
+	list-style: none;
+}
+.box ul li {
+	/*淡入淡出效果需要*/
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+	width: 470px;
+}
+.box ul li img {
+	width: 470px;
+	height: 200px;
+}
+.box ol {
+	list-style: none;
+	width: 100px;
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+.box ol li {
+	width: 20px;
+	height: 20px;
+	display: inline;
+	color: red;
+	padding: 5px;
+	border: 1px solid orange;
+	cursor: pointer;
+}
+.active {
+	background-color: #000;
+}
